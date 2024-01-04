@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New play</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<style>
+    .gap-1{
+    display: inline-flex;
+    padding: 5px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 160px;
+    margin-top: 100px;
+    width: 70%;
+    }
+</style>
+
+<div id="collapseContent" > 
+<p class="d-inline-flex gap-1">
+    <button class="btn btn-primary container justify-content-center m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#scopeCollapse" aria-expanded="false" aria-controls="scopeCollapse">
+        <li>Discuss the scope of var, let, and const!</li>
+    </button>
+</p>
+      <div class="collapse" id="scopeCollapse" >
+        <div class="card card-body container w-75">
+          <h1><li>var :</li></h1>
+          <p>Variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of data or object referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data (like integer, float)</p>
+
+          <h1><li>let :</li></h1>
+          <p> 'Let' is a keyword used to declare a variable in JavaScript. It was introduced in ECMAScript 6 (ES6) to provide an alternative to the older var keyword for variable declaration. The let statement allows you to declare a variable with block scope, meaning the variable is only accessible within the block of code where it is defined.</p>
+
+          <h1><li>const :</li></h1>
+          <p>Const (constant) in programming is a keyword that defines a variable or pointer as unchangeable. A const may be applied in an object declaration to indicate that the object, unlike a standard variable, does not change. Such fixed values for objects are often termed literals. In some languages (the C family, for example) const is part of the type while in many others it is part of the object.</p>
+        </div>
+      </div>
+
+
+      <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary container justify-content-center m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#useCasesCollapse" aria-expanded="false" aria-controls="useCasesCollapse">
+            <li>Tell us the use cases of null and undefined :</li>
+        </button>
+    </p>
+      <div class="collapse" id="useCasesCollapse">
+        <div class="card card-body container w-75">
+          <h1><li>null :</li></h1>
+          <p>Null means having no value; in other words null is zero, like if you put so little sugar in your coffee that it's practically null. Null also means invalid, or having no binding force. From the Latin nullus, meaning "not any," poor, powerless null is not actually there at all. Or if it was, it's gone now.</p>
+
+          <h1><li>undefined :</li></h1>
+          <p> Undefined value is a condition where an expression does not have a correct value, although it is syntactically correct. An undefined value must not be confused with empty string, Boolean "false" or other "empty" (but defined) values.</p>
+        </div>
+      </div>
+
+
+      <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary container justify-content-center m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#restAPICollapse" aria-expanded="false" aria-controls="restAPICollapse">
+            <li>What do you mean by REST API?</li>
+        </button>
+    </p>
+      <div class="collapse" id="restAPICollapse">
+        <div class="card card-body container w-75">
+          <h1><li>REST (Representational State Transfer):  </li></h1>
+          <p>Representational State Transfer (REST) is an architectural style for designing networked applications. It was introduced by Roy Fielding in his doctoral dissertation in 2000 and has since become a widely adopted approach for building web services and APIs (Application Programming Interfaces). REST is not a standard but a set of principles that define how web standards, such as HTTP and URLs, should be used.<br>
+            Key principles of REST include:<br>
+            Statelessness: RESTful applications are stateless, meaning that each request from a client to a server must contain all the information needed to understand and process the request. The server should not store any information about the client's state between requests. Statelessness simplifies the design and scalability of web services.<br>
+            
+            Resources: In REST, everything is considered a resource. A resource is an entity that can be identified using a URI (Uniform Resource Identifier), and it can represent any concept in the application, such as a user, a product, or a service.<br>
+            
+            Uniform Interface: RESTful services should have a uniform and consistent interface.</p>
+
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>

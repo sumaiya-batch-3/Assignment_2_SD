@@ -1,0 +1,39 @@
+.profile_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card_image {
+    height: 150px;
+}
+
+.card_image_container {
+    position: relative;
+}
+
+.post_time {
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 10px;
+    bottom: 7px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 9px;
+}
+
+.blog_btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.category_btn:hover {
+    background-color: red;
+}
+
+.active-button {
+    background-color: #4caf50;
+    /* Green background */
+    color: white;
+    /* White text color */
+}
